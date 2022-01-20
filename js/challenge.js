@@ -27,7 +27,7 @@ minusBtn.addEventListener('click', (e) => {
     counter.innerText = "You have been here for " + newTime + " seconds."
 
 })
-pluaBtn = document.getElementById("plua")
+plusBtn = document.getElementById("plus")
 plusBtn.addEventListener('click', (e) => {
     const newTime = seconds + 1;
     counter.innerText = "You have been here for " + newTime + " seconds."
